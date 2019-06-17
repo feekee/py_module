@@ -46,6 +46,7 @@ class generate_static():
 
 
 if __name__ == '__main__':
+  #  处理excel文件，汇总两列数据（ACK时间，姓名），返回每个人的平均ACK时间+姓名的字典  
   #  logging.basicConfig(level=logging.DEBUG,filename='C:\\Users\\fzhang2\\Desktop\\file\\test1.log', filemode='w')
     a=generate_static('C:\\Users\\fzhang2\\Desktop\\file\\incidents_new.xls','Sheet1')
     a.generate_dict()
